@@ -1,0 +1,56 @@
+.home{
+    padding: 50px 500px 50px 550px;
+    .home-form{
+        input{
+            width: 300px;
+            margin-right: 5px;
+            height: 33px;
+        }
+        button{
+            border: 1px solid #ddd;
+            height: 33px;
+            border-radius: 5px;
+            width: 90px;
+            background-color: #fff;
+            font-size: 16px;
+            color: #333;
+        }
+        button:hover{
+            border: 1px solid rgb(0, 183, 255);
+            color: rgb(0, 183, 255);
+        }
+    }
+    .home-table{
+        ul{
+            display: flex;
+            list-style: none;
+            margin-left: 10px;
+            height: 20px;
+            text-align: left;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            width: 350px;
+            margin-bottom: -10px;
+            .name{
+                width: 195px;
+                max-width: 200px;
+            }
+            .status{
+                margin-right: 10px;
+            }
+            .edit{
+                margin-right: 5px;
+                color: orange;cursor: pointer;
+            }
+            .delete{
+                color: red;
+                cursor: pointer;
+            }
+        }
+        ul:hover{
+            background-color: #ddd;
+            color: #333;
+        }
+    }
+}
